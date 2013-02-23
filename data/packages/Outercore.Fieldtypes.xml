@@ -1,0 +1,298 @@
+<project>
+  <Metadata>
+    <metadata>
+      <PackageName>Additional field types for Sitecore CMS</PackageName>
+      <Author>Alexey Rusakov, Alistair Deneys</Author>
+      <Version>Drop-3</Version>
+      <Revision />
+      <License>&lt;p&gt;&lt;strong&gt;SITECORE SHARED SOURCE LICENSE&lt;/strong&gt; &lt;br&gt;&lt;br&gt;This License governs use of the accompanying Software, and your use of the Software constitutes acceptance of this license. &lt;br&gt;&lt;br&gt;Subject to the restrictions in this license, you may use this Software for any commercial or non-commercial purpose in Sitecore solutions only. You may also distribute this Software with books or other teaching materials, or publish the Software on websites, that are intended to teach the use of the Software in relation to Sitecore. &lt;br&gt;&lt;br&gt;You may not use or distribute this Software or any derivative works in any form for uses other than with Sitecore. &lt;br&gt;&lt;br&gt;You may modify this Software and distribute the modified Software as long as it relates to Sitecore, however, you may not grant rights to the Software or derivative works that are broader than those provided by this License. For example, you may not distribute modifications of the Software under terms that would permit uses not relating to Sitecore, or under terms that purport to require the Software or derivative works to be sublicensed to others. &lt;br&gt;&lt;br&gt;You may use any information in intangible form that you remember after accessing the Software. However, this right does not grant you a license to any of Sitecore's copyrights or patents for anything you might create using such information. &lt;br&gt;&lt;br&gt;In return, we simply require that you agree: &lt;/p&gt;&lt;ol type="1"&gt;&lt;li class="normal"&gt;Not to remove any copyright or other notices from the Software. &lt;/li&gt;&lt;li class="normal"&gt;That if you distribute the Software in source or object form, you will include a verbatim copy of this license. &lt;/li&gt;&lt;li class="normal"&gt;That if you distribute derivative works of the Software in source code form you do so only under a license that includes all of the provisions of this License, and if you distribute derivative works of the Software solely in object form you do so only under a license that complies with this License. &lt;/li&gt;&lt;li class="normal"&gt;That if you have modified the Software or created derivative works, and distribute such modifications or derivative works, you will cause the modified files to carry prominent notices so that recipients know that they are not receiving the original Software. Such notices must state: (i) that you have changed the Software; and (ii) the date of any changes. &lt;/li&gt;&lt;li class="normal"&gt;THAT THE SOFTWARE COMES "AS IS", WITH NO WARRANTIES. THIS MEANS NO EXPRESS, IMPLIED OR STATUTORY WARRANTY, INCLUDING WITHOUT LIMITATION, WARRANTIES OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE OR ANY WARRANTY OF TITLE OR NON-INFRINGEMENT. ALSO, YOU MUST PASS THIS DISCLAIMER ON WHENEVER YOU DISTRIBUTE THE SOFTWARE OR DERIVATIVE WORKS. &lt;/li&gt;&lt;li class="normal"&gt;THAT SITECORE WILL NOT BE LIABLE FOR ANY DAMAGES RELATED TO THE SOFTWARE OR THIS LICENSE, INCLUDING DIRECT, INDIRECT, SPECIAL, CONSEQUENTIAL OR INCIDENTAL DAMAGES, TO THE MAXIMUM EXTENT THE LAW PERMITS, NO MATTER WHAT LEGAL THEORY IT IS BASED ON. ALSO, YOU MUST PASS THIS LIMITATION OF LIABILITY ON WHENEVER YOU DISTRIBUTE THE SOFTWARE OR DERIVATIVE WORKS. &lt;/li&gt;&lt;li class="normal"&gt;That if you sue anyone over patents that you think may apply to the Software or anyone's use of the Software, your license to the Software ends automatically. &lt;/li&gt;&lt;li class="normal"&gt;That your rights under the License end automatically if you breach it in any way. &lt;/li&gt;&lt;li class="normal"&gt;Sitecore reserves all rights not expressly granted to you in this license. &lt;/li&gt;&lt;/ol&gt;</License>
+      <Comment />
+      <Attributes />
+      <Readme>Mail ar@sitecore.net for bugreports/questions.</Readme>
+      <Publisher>Alexey Rusakov</Publisher>
+      <PostStep />
+      <PackageID />
+    </metadata>
+  </Metadata>
+  <SaveProject>True</SaveProject>
+  <Sources>
+    <xitems>
+      <Entries>
+        <x-item>/core/sitecore/system/Field types/List Types/Carousel/{4FC2ACC4-61EF-4F6F-8AB6-269F0EE6E24A}/invariant/0</x-item>
+        <x-item>/core/sitecore/system/Field types/Simple Types/Slider/{8ADFC743-4437-465A-B3D9-3D9C423FBE27}/invariant/0</x-item>
+        <x-item>/core/sitecore/system/Field types/List Types/Visuallist/{F9887606-C9E7-4A81-81AC-F0330B337DC2}/invariant/0</x-item>
+        <x-item>/core/sitecore/system/Field types/List Types/Visuallist/Menu/{A232DE0C-8EFA-4FBC-8343-19603901C125}/invariant/0</x-item>
+        <x-item>/core/sitecore/system/Field types/List Types/Visuallist/Menu/Add Item/{6CC927D2-A575-4972-98C2-B2CAFBD134D8}/invariant/0</x-item>
+        <x-item>/core/sitecore/system/Field types/List Types/Visuallist/Menu/Clear/{B42C61A4-186A-4E71-B28C-AEF9AB0CFD65}/invariant/0</x-item>
+        <x-item>/core/sitecore/system/Field types/Simple Types/Limited Single-Line Text/{6C4D7269-9BEA-4B58-9A2D-789DE18D22A2}/invariant/0</x-item>
+        <x-item>/core/sitecore/system/Field types/List Types/Text List/{543E7D8E-F4F9-4DF1-AAB8-7A7292DEA26D}/invariant/0</x-item>
+        <x-item>/core/sitecore/system/Field types/List Types/FilteredMultilistEx/{1AA471CF-36B5-4803-B005-C9D423C348C6}/invariant/0</x-item>
+        <x-item>/core/sitecore/system/Field types/List Types/FilteredMultilistEx/Menu/{513AA02A-CAB5-4980-AA01-497EC2DCBA3F}/invariant/0</x-item>
+        <x-item>/core/sitecore/system/Field types/List Types/FilteredMultilistEx/Menu/Deselect All/{0C331A71-61B0-424D-BCD3-704996A669DC}/invariant/0</x-item>
+        <x-item>/core/sitecore/system/Field types/List Types/FilteredMultilistEx/Menu/Select All/{B42AFE64-9F85-4414-BCCE-F49840810851}/invariant/0</x-item>
+      </Entries>
+      <SkipVersions>False</SkipVersions>
+      <Converter>
+        <ItemToEntryConverter>
+          <Transforms>
+            <InstallerConfigurationTransform>
+              <Options>
+                <BehaviourOptions>
+                  <ItemMode>Undefined</ItemMode>
+                  <ItemMergeMode>Merge</ItemMergeMode>
+                </BehaviourOptions>
+              </Options>
+            </InstallerConfigurationTransform>
+          </Transforms>
+        </ItemToEntryConverter>
+      </Converter>
+      <Include />
+      <Exclude />
+      <Name>Field types</Name>
+    </xitems>
+    <xfiles>
+      <Entries>
+        <x-item>/bin/Outercore.FieldTypes.dll</x-item>
+      </Entries>
+      <Converter>
+        <FileToEntryConverter>
+          <Root>/</Root>
+          <Transforms>
+            <InstallerConfigurationTransform>
+              <Options>
+                <BehaviourOptions>
+                  <ItemMode>Overwrite</ItemMode>
+                  <ItemMergeMode>Undefined</ItemMergeMode>
+                </BehaviourOptions>
+              </Options>
+            </InstallerConfigurationTransform>
+          </Transforms>
+        </FileToEntryConverter>
+      </Converter>
+      <Include />
+      <Exclude />
+      <Name>Binaries</Name>
+    </xfiles>
+    <xfiles>
+      <Entries>
+        <x-item>/App_Config/Include/Outercore_fieldtypes.config</x-item>
+      </Entries>
+      <Converter>
+        <FileToEntryConverter>
+          <Root>/</Root>
+          <Transforms>
+            <InstallerConfigurationTransform>
+              <Options>
+                <BehaviourOptions>
+                  <ItemMode>Overwrite</ItemMode>
+                  <ItemMergeMode>Undefined</ItemMergeMode>
+                </BehaviourOptions>
+              </Options>
+            </InstallerConfigurationTransform>
+          </Transforms>
+        </FileToEntryConverter>
+      </Converter>
+      <Include />
+      <Exclude />
+      <Name>Configs</Name>
+    </xfiles>
+    <files>
+      <Root>/sitecore modules/Outercore.FieldTypes</Root>
+      <Converter>
+        <FileToEntryConverter>
+          <Root>/</Root>
+          <Transforms>
+            <InstallerConfigurationTransform>
+              <Options>
+                <BehaviourOptions>
+                  <ItemMode>Undefined</ItemMode>
+                  <ItemMergeMode>Undefined</ItemMergeMode>
+                </BehaviourOptions>
+              </Options>
+            </InstallerConfigurationTransform>
+          </Transforms>
+        </FileToEntryConverter>
+      </Converter>
+      <Include>
+        <FileNameFilter>
+          <Pattern>*.xml</Pattern>
+          <AcceptDirectories>False</AcceptDirectories>
+        </FileNameFilter>
+        <FileDateFilter>
+          <FilterType>CreatedFilter</FilterType>
+          <ActionDateTo />
+          <ActionDateFrom />
+          <NotOlderThan />
+        </FileDateFilter>
+        <FileDateFilter>
+          <FilterType>ModifiedFilter</FilterType>
+          <ActionDateTo />
+          <ActionDateFrom />
+          <NotOlderThan />
+        </FileDateFilter>
+      </Include>
+      <Exclude />
+      <Name>Source</Name>
+    </files>
+    <files>
+      <Root>/sitecore modules/Outercore.FieldTypes</Root>
+      <Converter>
+        <FileToEntryConverter>
+          <Root>/</Root>
+          <Transforms>
+            <InstallerConfigurationTransform>
+              <Options>
+                <BehaviourOptions>
+                  <ItemMode>Undefined</ItemMode>
+                  <ItemMergeMode>Undefined</ItemMergeMode>
+                </BehaviourOptions>
+              </Options>
+            </InstallerConfigurationTransform>
+          </Transforms>
+        </FileToEntryConverter>
+      </Converter>
+      <Include>
+        <FileNameFilter>
+          <Pattern>*.js</Pattern>
+          <AcceptDirectories>False</AcceptDirectories>
+        </FileNameFilter>
+        <FileDateFilter>
+          <FilterType>CreatedFilter</FilterType>
+          <ActionDateTo />
+          <ActionDateFrom />
+          <NotOlderThan />
+        </FileDateFilter>
+        <FileDateFilter>
+          <FilterType>ModifiedFilter</FilterType>
+          <ActionDateTo />
+          <ActionDateFrom />
+          <NotOlderThan />
+        </FileDateFilter>
+      </Include>
+      <Exclude />
+      <Name>Scripts</Name>
+    </files>
+    <files>
+      <Root>/sitecore modules/Outercore.FieldTypes</Root>
+      <Converter>
+        <FileToEntryConverter>
+          <Root>/</Root>
+          <Transforms>
+            <InstallerConfigurationTransform>
+              <Options>
+                <BehaviourOptions>
+                  <ItemMode>Undefined</ItemMode>
+                  <ItemMergeMode>Undefined</ItemMergeMode>
+                </BehaviourOptions>
+              </Options>
+            </InstallerConfigurationTransform>
+          </Transforms>
+        </FileToEntryConverter>
+      </Converter>
+      <Include>
+        <FileNameFilter>
+          <Pattern>*.css</Pattern>
+          <AcceptDirectories>False</AcceptDirectories>
+        </FileNameFilter>
+        <FileDateFilter>
+          <FilterType>CreatedFilter</FilterType>
+          <ActionDateTo />
+          <ActionDateFrom />
+          <NotOlderThan />
+        </FileDateFilter>
+        <FileDateFilter>
+          <FilterType>ModifiedFilter</FilterType>
+          <ActionDateTo />
+          <ActionDateFrom />
+          <NotOlderThan />
+        </FileDateFilter>
+      </Include>
+      <Exclude />
+      <Name>Stylesheets</Name>
+    </files>
+    <files>
+      <Root>/sitecore modules</Root>
+      <Converter>
+        <FileToEntryConverter>
+          <Root>/</Root>
+          <Transforms>
+            <InstallerConfigurationTransform>
+              <Options>
+                <BehaviourOptions>
+                  <ItemMode>Overwrite</ItemMode>
+                  <ItemMergeMode>Undefined</ItemMergeMode>
+                </BehaviourOptions>
+              </Options>
+            </InstallerConfigurationTransform>
+          </Transforms>
+        </FileToEntryConverter>
+      </Converter>
+      <Include>
+        <FileNameFilter>
+          <Pattern>*.png</Pattern>
+          <AcceptDirectories>False</AcceptDirectories>
+        </FileNameFilter>
+        <FileDateFilter>
+          <FilterType>CreatedFilter</FilterType>
+          <ActionDateTo />
+          <ActionDateFrom />
+          <NotOlderThan />
+        </FileDateFilter>
+        <FileDateFilter>
+          <FilterType>ModifiedFilter</FilterType>
+          <ActionDateTo />
+          <ActionDateFrom />
+          <NotOlderThan />
+        </FileDateFilter>
+      </Include>
+      <Exclude />
+      <Name>Png images</Name>
+    </files>
+    <files>
+      <Root>/sitecore modules/Outercore.FieldTypes</Root>
+      <Converter>
+        <FileToEntryConverter>
+          <Root>/</Root>
+          <Transforms>
+            <InstallerConfigurationTransform>
+              <Options>
+                <BehaviourOptions>
+                  <ItemMode>Undefined</ItemMode>
+                  <ItemMergeMode>Undefined</ItemMergeMode>
+                </BehaviourOptions>
+              </Options>
+            </InstallerConfigurationTransform>
+          </Transforms>
+        </FileToEntryConverter>
+      </Converter>
+      <Include>
+        <FileNameFilter>
+          <Pattern>*.gif</Pattern>
+          <AcceptDirectories>False</AcceptDirectories>
+        </FileNameFilter>
+        <FileDateFilter>
+          <FilterType>CreatedFilter</FilterType>
+          <ActionDateTo />
+          <ActionDateFrom />
+          <NotOlderThan />
+        </FileDateFilter>
+        <FileDateFilter>
+          <FilterType>ModifiedFilter</FilterType>
+          <ActionDateTo />
+          <ActionDateFrom />
+          <NotOlderThan />
+        </FileDateFilter>
+      </Include>
+      <Exclude />
+      <Name>Gif images</Name>
+    </files>
+  </Sources>
+  <Converter>
+    <TrivialConverter>
+      <Transforms />
+    </TrivialConverter>
+  </Converter>
+  <Include />
+  <Exclude />
+  <Name />
+</project>

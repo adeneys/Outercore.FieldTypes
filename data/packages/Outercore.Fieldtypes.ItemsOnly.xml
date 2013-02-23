@@ -1,0 +1,64 @@
+<project>
+  <Metadata>
+    <metadata>
+      <PackageName>Field types Items only development pack</PackageName>
+      <Author>Alexey Rusakov</Author>
+      <Version />
+      <Revision />
+      <License />
+      <Comment />
+      <Attributes />
+      <Readme>This is a "items only" package, intended for developers using the Sitecore shared source repository.
+
+Mail ar@sitecore.net for bugreports/questions.</Readme>
+      <Publisher>Alexey Rusakov</Publisher>
+      <PostStep />
+      <PackageID />
+    </metadata>
+  </Metadata>
+  <SaveProject>True</SaveProject>
+  <Sources>
+    <xitems>
+      <Entries>
+        <x-item>/core/sitecore/system/Field types/List Types/Carousel/{4FC2ACC4-61EF-4F6F-8AB6-269F0EE6E24A}/invariant/0</x-item>
+        <x-item>/core/sitecore/system/Field types/Simple Types/Slider/{8ADFC743-4437-465A-B3D9-3D9C423FBE27}/invariant/0</x-item>
+        <x-item>/core/sitecore/system/Field types/List Types/Visuallist/{F9887606-C9E7-4A81-81AC-F0330B337DC2}/invariant/0</x-item>
+        <x-item>/core/sitecore/system/Field types/List Types/Visuallist/Menu/{A232DE0C-8EFA-4FBC-8343-19603901C125}/invariant/0</x-item>
+        <x-item>/core/sitecore/system/Field types/List Types/Visuallist/Menu/Add Item/{6CC927D2-A575-4972-98C2-B2CAFBD134D8}/invariant/0</x-item>
+        <x-item>/core/sitecore/system/Field types/List Types/Visuallist/Menu/Clear/{B42C61A4-186A-4E71-B28C-AEF9AB0CFD65}/invariant/0</x-item>
+        <x-item>/core/sitecore/system/Field types/Simple Types/Limited Single-Line Text/{6C4D7269-9BEA-4B58-9A2D-789DE18D22A2}/invariant/0</x-item>
+        <x-item>/core/sitecore/system/Field types/List Types/Text List/{543E7D8E-F4F9-4DF1-AAB8-7A7292DEA26D}/invariant/0</x-item>
+        <x-item>/core/sitecore/system/Field types/List Types/FilteredMultilistEx/{1AA471CF-36B5-4803-B005-C9D423C348C6}/invariant/0</x-item>
+        <x-item>/core/sitecore/system/Field types/List Types/FilteredMultilistEx/Menu/{513AA02A-CAB5-4980-AA01-497EC2DCBA3F}/invariant/0</x-item>
+        <x-item>/core/sitecore/system/Field types/List Types/FilteredMultilistEx/Menu/Deselect All/{0C331A71-61B0-424D-BCD3-704996A669DC}/invariant/0</x-item>
+        <x-item>/core/sitecore/system/Field types/List Types/FilteredMultilistEx/Menu/Select All/{B42AFE64-9F85-4414-BCCE-F49840810851}/invariant/0</x-item>
+      </Entries>
+      <SkipVersions>False</SkipVersions>
+      <Converter>
+        <ItemToEntryConverter>
+          <Transforms>
+            <InstallerConfigurationTransform>
+              <Options>
+                <BehaviourOptions>
+                  <ItemMode>Undefined</ItemMode>
+                  <ItemMergeMode>Merge</ItemMergeMode>
+                </BehaviourOptions>
+              </Options>
+            </InstallerConfigurationTransform>
+          </Transforms>
+        </ItemToEntryConverter>
+      </Converter>
+      <Include />
+      <Exclude />
+      <Name>Field types</Name>
+    </xitems>
+  </Sources>
+  <Converter>
+    <TrivialConverter>
+      <Transforms />
+    </TrivialConverter>
+  </Converter>
+  <Include />
+  <Exclude />
+  <Name />
+</project>
