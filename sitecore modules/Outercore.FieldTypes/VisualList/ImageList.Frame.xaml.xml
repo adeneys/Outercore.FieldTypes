@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<xamlControls
+  xmlns:x="http://www.sitecore.net/xaml"
+  xmlns:ajax="http://www.sitecore.net/ajax"
+  xmlns:rest="http://www.sitecore.net/rest"
+  xmlns:javascript="http://www.sitecore.net/javascript"
+  xmlns:r="http://www.sitecore.net/renderings"
+  xmlns:xmlcontrol="http://www.sitecore.net/xmlcontrols"
+  xmlns:p="http://schemas.sitecore.net/Visual-Studio-Intellisense"
+  xmlns:asp="http://www.sitecore.net/microsoft/webcontrols"
+  xmlns:html="http://www.sitecore.net/microsoft/htmlcontrols"
+  xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+
+  <Outercore.FieldTypes.VisualList.Frame x:inherits="Outercore.FieldTypes.Carousel.VisualListFramePage, OuterCore.FieldTypes">
+    <Sitecore.Controls.HtmlPage runat="server">
+      <AjaxScriptManager runat="server"/>
+      <ContinuationManager runat="server" />
+
+      <Stylesheet runat="server" Src="/sitecore modules/outercore.fieldtypes/visuallist/visuallist.css" />
+
+      <Script runat="server" Type="text/javascript" Src="/sitecore/shell/controls/lib/scriptaculous/scriptaculous.js" />
+      <Script runat="server" Type="text/javascript" Src="/sitecore modules/Outercore.FieldTypes/VisualList/js/visuallist.js" />
+
+      <html:HtmlInputHidden ID="ControlID" class="control_id" runat="server" />
+
+      <GridPanel runat="server" Height="100%" Width="100%">
+        <Scrollbox runat="server" Border="none" Height="100%" GridPanel.VAlign="top" GridPanel.Width="100%">
+          <Border ID="Items" runat="server">
+
+          </Border>
+        </Scrollbox>
+      </GridPanel>
+      
+    </Sitecore.Controls.HtmlPage>
+  </Outercore.FieldTypes.VisualList.Frame>
+</xamlControls>

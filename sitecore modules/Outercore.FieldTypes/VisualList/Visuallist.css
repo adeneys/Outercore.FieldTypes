@@ -1,0 +1,69 @@
+﻿html, body, img, ul, li, a { margin: 0; padding: 0; border: none; }
+
+body {
+	overflow: hidden;
+}
+
+ul {
+  position: relative;
+  top: 0;
+  left: 0;
+  height: 256px;
+}                      
+
+ul li {
+  width: 112px;
+  height: 120px;
+  text-align: center; 
+  list-style: none;   
+  float: left;
+  
+  padding: 5px;
+  cursor: pointer;
+  position: relative;
+}
+
+ul.disabled li {
+	cursor: auto;
+}
+
+ul li.selected, ul li.hover {
+	border: solid 1px #d8f0fa;
+	padding: 4px;
+	background: #e8f5fd;
+}
+
+ul li .image-container {
+	height: 96px;
+	width: 96px;
+	text-align: center;
+}
+
+ul li .small img {
+  margin-top: 24px;
+}
+
+ul li .text {
+	display: block;
+	text-align: center;
+	width: 100%;
+	padding-top: 4px;
+}
+
+ul li .delete {
+	position: absolute;
+	right: 1px;
+  top: 3px;
+  background: #efefef;
+  background-image: url(/sitecore/shell/themes/standard/images/close_h.png);
+  display: none;
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+}
+
+ul li.hover .delete {
+	display: block;
+	right: 0px;
+	top: 2px;
+}

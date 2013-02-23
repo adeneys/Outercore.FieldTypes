@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{0838B2AE-5287-467F-932E-26CECFCF9ED8}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Outercore.FieldTypes</RootNamespace>
+    <AssemblyName>Outercore.FieldTypes</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\..\..\scSharedSource\Website\bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Sitecore.Client, Version=6.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\scSharedSource\Website\bin\Sitecore.Client.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Sitecore.Kernel, Version=6.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\scSharedSource\Website\bin\Sitecore.Kernel.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Common\InjectScripts.cs" />
+    <Compile Include="FilteredMultilist\FilteredMultilistEx.cs" />
+    <Compile Include="TextList\TextListContentField.cs" />
+    <Compile Include="Carousel\CarouselContentField.cs" />
+    <Compile Include="Carousel\Carousel.Frame.xaml.xml.cs" />
+    <Compile Include="LimitedText\LimitedTextContentField.cs" />
+    <Compile Include="VisualList\VisualList.Frame.xaml.xml.cs" />
+    <Compile Include="VisualList\VisualListContentField.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Slider\SliderContentField.cs" />
+    <Compile Include="VisualList\VisualListField.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Carousel\Carousel.css" />
+    <Content Include="Carousel\Carousel.Frame.xaml.xml" />
+    <Content Include="Carousel\js\carousel.js" />
+    <Content Include="Carousel\js\integration.js" />
+    <Content Include="Carousel\js\carousel.packed.js" />
+    <Content Include="TextList\img\close.gif" />
+    <Content Include="TextList\js\textlist.css" />
+    <Content Include="TextList\js\textlist.js" />
+    <Content Include="TextList\test.html" />
+    <Content Include="VisualList\Visuallist.css" />
+    <Content Include="VisualList\ImageList.Frame.xaml.xml" />
+    <Content Include="VisualList\js\VisualList.js" />
+    <Content Include="Slider\img\handle.png" />
+    <Content Include="Slider\img\track-left.png" />
+    <Content Include="Slider\img\track-repeat.png" />
+    <Content Include="Slider\img\track-right.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

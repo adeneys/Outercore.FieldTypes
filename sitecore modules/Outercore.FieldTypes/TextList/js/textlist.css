@@ -1,0 +1,78 @@
+﻿.scTextlist {
+  width: 100%;
+  background: white;
+  height: 19px;
+  padding: 2px 0px 2px 0px;
+  position: relative;
+  border: solid 1px #cccccc;
+}
+
+.textlist-item {
+  float: left;  
+  border: solid 1px #CAD8F3;
+  background-color: #DEE7F8;
+  padding: 2px 15px 2px 4px;
+  margin: 0px 2px 2px 2px;
+  cursor: pointer;
+}
+
+.textlist-item-hover {
+  border: solid 1px #B1BDD3;
+  background-color: #D0DCF4;
+}
+
+.textlist-input {
+  float: left;
+  width: 250px;
+  border: none;
+  font: 10pt Verdana;
+}
+
+.textlist-closebutton {
+  background: url("/sitecore modules/outercore.fieldtypes/textlist/img/close.gif");
+  height: 7px;
+  position: absolute;
+  right: 4px;
+  top: 6px;
+  width: 7px;
+  height: 7px;
+  font-size: 1px;
+}
+
+.textlist-closebutton:hover {
+  background-position: 7px;
+}
+
+.textlist-autocomplete {
+  position: absolute;
+  z-index: 20000;
+  top: 25px;
+  left: -1px;
+  
+  overflow: auto;
+  background: #eeeeee;
+  
+  width: 350px;
+}
+
+.textlist-autocomplete .item {
+  border: solid 1px #cccccc;
+  border-top: none;
+  padding: 4px 12px;
+  cursor: pointer;
+}
+
+.textlist-autocomplete .selected {
+  background-color: #3B5998;
+  color: white;
+}
+
+.textlist-autocomplete em {
+  font-style: normal;
+  font-weight: bold;
+  background: #cccccc;
+}
+
+.textlist-autocomplete .selected em {
+  background: #5670A6;
+}
