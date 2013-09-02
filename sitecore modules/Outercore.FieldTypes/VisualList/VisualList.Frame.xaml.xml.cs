@@ -258,7 +258,8 @@ namespace Outercore.FieldTypes.Carousel
                 {
                     result.Add(item);
                 }
-                else
+                //if id is not a valid Sitecore id and has at least one closing angle bracket
+		else if(!Sitecore.Data.ID.IsID(id) && id.IndexOf(">", System.StringComparison.Ordinal) > -1 )
                 {
                     // If this field used to be an Image field then the value was stored 
                     // as an XmlValue instead of just an ItemID
