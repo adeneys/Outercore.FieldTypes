@@ -38,9 +38,9 @@ namespace Outercore.FieldTypes
             foreach (DictionaryEntry entry in dictionary)
             {
                 Item item = entry.Value as Item;
-                if (item != null)
+                if (item != null && item.DisplayName != null)
                 {
-                    sb.Append(item.DisplayName + ",");
+                    sb.Append(item.DisplayName.Replace(",", " ") + ",");
                     sb.Append(this.GetItemValue(item) + ",");
                 }
             }
